@@ -128,10 +128,12 @@ button {
 /* Listas */
 ul {
     list-style-type: none;
+    padding: 0;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
     font-size: 18px;
-    margin: 30px 0;
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
 
 .result-list {
@@ -155,6 +157,9 @@ ul {
 
 .button-draw img {
     margin-right: 40px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
 }
 
 .button-draw:hover {
@@ -181,4 +186,36 @@ ul {
 
 .button-clean:hover {
     background-color: rgb(255, 0, 0);
+}
+
+/* Item de lista */
+
+.item-lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.item-lista span{
+    margin-right: 10px;
+}
+
+
+/* Eliminar nombre ya agregado*/
+
+.eliminar {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+.eliminar img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.eliminar:hover {
+    background-color:rgb(255, 0, 0);
 }
