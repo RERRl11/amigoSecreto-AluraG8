@@ -35,6 +35,11 @@ function sortearAmigo(){
     }
 }
 
+function limpiarLista(){
+    listaAmigos = [];
+    listadoAmigos();
+}
+
 function limpiarCaja(){
     document.querySelector('#amigo').value = '';
 }

@@ -116,13 +116,13 @@ button {
 }
 
 .button-add {
-    background-color: var(--color-tertiary);
+    background-color: rgb(187, 187, 187);
     color: var(--color-text);
     border-radius: 0 25px 25px 0;
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: rgb(255, 234, 0);
 }
 
 /* Listas */
@@ -149,7 +149,7 @@ ul {
     width: 100%;
     padding: 10px 40px;
     color: var(--color-white);
-    background-color: var(--color-button);
+    background-color: rgb(0, 119, 255);
     font-size: 16px;
 }
 
@@ -158,5 +158,27 @@ ul {
 }
 
 .button-draw:hover {
-    background-color: var(--color-button-hover);
+    background-color: rgb(38, 42, 255);
+}
+/* Botón de eliminar Lista */
+.button-clean {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: rgb(0, 119, 255);
+    font-size: 16px;
+}
+
+.button-clean img {
+    margin-right: 40px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.button-clean:hover {
+    background-color: rgb(255, 0, 0);
 }
